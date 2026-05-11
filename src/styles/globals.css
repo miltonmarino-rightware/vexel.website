@@ -28,8 +28,8 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   background:
-    radial-gradient(circle at 12% 10%, rgba(91, 140, 255, 0.16), transparent 28%),
-    radial-gradient(circle at 88% 20%, rgba(138, 108, 255, 0.14), transparent 30%),
+    radial-gradient(circle at 12% 10%, rgba(91, 140, 255, 0.18), transparent 28%),
+    radial-gradient(circle at 88% 20%, rgba(138, 108, 255, 0.16), transparent 30%),
     linear-gradient(180deg, #05070d 0%, #070b13 42%, #05070d 100%);
 }
 
@@ -65,15 +65,15 @@ select {
 
 .vexel-metal-text {
   color: transparent;
-  background: linear-gradient(180deg, #ffffff 0%, #dbe4f4 28%, #8f9bb1 58%, #f8fbff 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #e5ebf7 24%, #99a5b8 56%, #f8fbff 100%);
   -webkit-background-clip: text;
   background-clip: text;
-  text-shadow: 0 12px 46px rgba(141, 171, 255, 0.15);
+  text-shadow: 0 12px 46px rgba(141, 171, 255, 0.16);
 }
 
 .vexel-blue-text {
   color: transparent;
-  background: linear-gradient(180deg, #eef4ff 0%, #9fb4ff 48%, #7f75ff 100%);
+  background: linear-gradient(180deg, #f6f8ff 0%, #a8bbff 44%, #7e70ff 100%);
   -webkit-background-clip: text;
   background-clip: text;
 }
@@ -83,6 +83,24 @@ select {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.035));
   box-shadow: 0 24px 90px rgba(0, 0, 0, 0.48), inset 0 1px 0 rgba(255,255,255,0.08);
   backdrop-filter: blur(24px);
+}
+
+.vexel-perspective {
+  perspective: 1200px;
+}
+
+.vexel-orbit {
+  transform-style: preserve-3d;
+}
+
+.vexel-section-fade {
+  mask-image: linear-gradient(180deg, transparent 0%, black 9%, black 91%, transparent 100%);
+}
+
+.vexel-soft-ring {
+  background:
+    radial-gradient(circle at center, rgba(221, 235, 255, 0.18), transparent 24%),
+    conic-gradient(from 190deg, rgba(91,140,255,0.1), rgba(221,235,255,0.45), rgba(138,108,255,0.08), rgba(91,140,255,0.1));
 }
 
 @media (prefers-reduced-motion: reduce) {
