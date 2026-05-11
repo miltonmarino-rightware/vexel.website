@@ -20,7 +20,7 @@ export function OrbitalCore() {
         transition={{ duration: 4.5, repeat: Infinity, ease: 'easeInOut' }}
       >
         <div className="flex h-full w-full items-center justify-center rounded-full border border-white/10 bg-vexel-bg/80 backdrop-blur-2xl">
-          <LogoMark showText={false} className="scale-125" />
+          <LogoMark variant="symbol" showText={false} className="scale-[2.05]" />
         </div>
       </motion.div>
       {['Chat', 'Agenda', 'Voice', 'Flow'].map((label, index) => (
