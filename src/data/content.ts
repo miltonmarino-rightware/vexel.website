@@ -3,28 +3,28 @@ import { Bot, CalendarCheck, GitBranch, Headphones, LayoutDashboard, Building2, 
 export const services = [
   {
     icon: Bot,
-    name: 'VEXEL Chatbot',
-    text: 'Atendimento automático para WhatsApp, Instagram, Facebook e website.',
-  },
-  {
-    icon: CalendarCheck,
-    name: 'VEXEL Agenda',
-    text: 'Marcações, confirmações, lembretes e reagendamentos com menos falhas.',
-  },
-  {
-    icon: Workflow,
-    name: 'VEXEL Workflow',
-    text: 'Fluxos inteligentes para notificações, CRM, emails, dados e dashboards.',
+    name: 'Atendimento Inteligente',
+    text: 'Chatbots e canais digitais organizados para responder, qualificar e encaminhar clientes com consistência.',
   },
   {
     icon: Headphones,
-    name: 'VEXEL Voice',
-    text: 'Chamadas inteligentes para confirmações, triagem e lembretes.',
+    name: 'Comunicação Operacional',
+    text: 'Voice AI e mensagens automáticas para confirmações, triagem, follow-ups e comunicação recorrente.',
+  },
+  {
+    icon: Workflow,
+    name: 'Execução de Processos',
+    text: 'Workflows que ligam notificações, CRM, emails, tarefas internas e dados num fluxo claro de execução.',
+  },
+  {
+    icon: CalendarCheck,
+    name: 'Agenda e Organização',
+    text: 'Marcações, lembretes e reagendamentos estruturados para reduzir falhas e trabalho manual.',
   },
   {
     icon: LayoutDashboard,
-    name: 'VEXEL Command',
-    text: 'Central operacional para leads, processos, automações e controlo.',
+    name: 'Controlo Operacional',
+    text: 'Dashboards e visão de comando para acompanhar leads, processos, automações e estado da operação.',
   },
 ];
 
