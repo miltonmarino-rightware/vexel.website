@@ -9,14 +9,14 @@ export function ExperienceSection() {
     <section id="experiência" className="vexel-section-fade relative overflow-hidden px-5 py-32 sm:px-8 lg:px-10">
       <div className="absolute left-0 top-1/2 h-px w-full bg-gradient-to-r from-transparent via-vexel-blue/30 to-transparent" />
       <div className="mx-auto max-w-7xl">
-        <SectionLabel>Seamless experience</SectionLabel>
+        <SectionLabel>Camada Operacional Inteligente</SectionLabel>
         <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div>
             <h2 className="text-5xl font-semibold leading-tight tracking-[-0.06em] sm:text-6xl">
-              <span className="vexel-metal-text">Uma camada inteligente entre clientes, equipa e operação.</span>
+              <span className="vexel-metal-text">Uma única camada entre clientes, equipa e operação.</span>
             </h2>
             <p className="mt-6 text-lg leading-8 text-vexel-muted">
-              A experiência VEXEL conecta canais, dados, atendimento e decisões numa linha operacional contínua — sem fricção, sem ruído, sem processos soltos.
+              A VEXEL recebe informação dos seus canais, organiza processos, executa automações e entrega controlo operacional em tempo real.
             </p>
           </div>
 
@@ -49,7 +49,7 @@ export function ExperienceSection() {
                   transition={{ duration: 4.8, delay: i * 0.65, repeat: Infinity, ease: 'easeInOut' }}
                 />
               ))}
-              <p className="absolute bottom-5 left-6 text-xs uppercase tracking-[0.22em] text-vexel-muted">Data flow / routing / execution</p>
+              <p className="absolute bottom-5 left-6 text-xs uppercase tracking-[0.22em] text-vexel-muted">Cliente - Camada VEXEL - Operação</p>
             </div>
             <div className="grid gap-3 sm:grid-cols-4">
               {[MessageSquare, PhoneCall, Zap, CheckCircle2].map((Icon, i) => (
