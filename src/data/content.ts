@@ -60,9 +60,9 @@ export const packages = [
   },
 ];
 
-export const flowNodes = ['WhatsApp', 'Instagram', 'Website', 'Telefone', 'VEXEL Layer', 'Chatbot', 'Agenda', 'Workflow', 'Dashboard'];
+export const flowNodes = ['WhatsApp', 'Instagram', 'Website', 'Telefone', 'Camada VEXEL', 'Chatbot', 'Agenda', 'Workflow', 'Dashboard'];
 
-export const leadStates = ['Novo', 'Diagnóstico', 'Proposta', 'Implementação', 'Activo'];
+export const leadStates = ['Novo contacto', 'Diagnóstico', 'Proposta', 'Implementação', 'Activo'];
 
 export const automationOptions = [
   { icon: GitBranch, label: 'Integrações' },
